@@ -4,8 +4,8 @@ use bd2;
 
 
 CREATE TABLE moveis (
-	id int(11) primary key auto_increment,
-	nome varchar(255)
+	id INT(11) PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(255)
 
 );
 
