@@ -1,28 +1,28 @@
-create database bd2;
+CREATE DATABASE bd2;
 
 use bd2;
 
 
-create table moveis (
+CREATE TABLE moveis (
 	id int(11) primary key auto_increment,
 	nome varchar(255)
 
 );
 
-select * from moveis;
+SELECT * FROM moveis;
 
 -- excluir tabela
-drop table moveis;
+DROP TABLE moveis;
 
 
 -- renomear a tabela
-rename table moveis to meus_moveis;
+RENAME TABLE moveis to meus_moveis;
 
 
-select * from meus_moveis;
+SELECT * FROM meus_moveis;
 
-insert into meus_moveis (nome) values ('Andre');
-insert into meus_moveis (nome) values ('Matheus');
-insert into meus_moveis (nome) values ('Bruno');
-insert into meus_moveis (nome) values ('Rafaela');
-insert into meus_moveis (nome) values ('Giovani');
+INSERT INTO meus_moveis (nome) VALUES ('Andre');
+INSERT INTO meus_moveis (nome) VALUES ('Matheus');
+INSERT INTO meus_moveis (nome) VALUES ('Bruno');
+INSERT INTO meus_moveis (nome) VALUES ('Rafaela');
+INSERT INTO meus_moveis (nome) VALUES ('Giovani');
